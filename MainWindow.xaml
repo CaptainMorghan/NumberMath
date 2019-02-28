@@ -1,0 +1,19 @@
+﻿<Window x:Class="_185301NumberMath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_185301NumberMath"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtX"> </TextBox>
+        <TextBox x:Name="txtY"> </TextBox>
+        <Button x:Name="btnAddInt" Click="btnAddInt_Click"> + </Button>
+        <Button x:Name="btnSubtractInt" Click="btnSubtractInt_Click"> - </Button>
+        <Button x:Name="btnMultiplyInt" Click="btnMultiplyInt_Click"> * </Button>
+        <Button x:Name="btnDivideInt" Click="btnDivideInt_Click"> / </Button>
+        <Button x:Name="btnModulusInt" Click="btnModulusInt_Click"> % </Button>
+        <Label  x:Name="lblOutput"> </Label>
+    </StackPanel>
+</Window>

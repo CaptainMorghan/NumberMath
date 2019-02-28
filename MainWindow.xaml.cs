@@ -1,4 +1,9 @@
-﻿using System;
+/*Morghan Kiverago
+185301
+2/28/2019
+NumberMath 
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
